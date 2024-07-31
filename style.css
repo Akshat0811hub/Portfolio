@@ -10,6 +10,7 @@
 
 #main {
     overflow: hidden;
+    background-color: #101010;
 }
 
 html {
@@ -207,9 +208,8 @@ span {
 
 .heading {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 4vw;
 }
-
 
 .about-content h2 {
     text-align: left;
@@ -217,7 +217,7 @@ span {
 }
 
 .about-content h3 {
-    font-size: 2.6rem;
+    font-size: 2vw;
 }
 
 .about-content p {
@@ -225,7 +225,9 @@ span {
     margin: 2rem 0 3rem;
 
 }
-
+.btn{
+    margin-top: 2%;
+}
 
                                         /* My Education */
 
@@ -233,6 +235,10 @@ span {
     margin-bottom: 5rem;
 }
 
+#h2{
+    font-size: 7vw;
+    text-align: center;
+}
 .education-container {
     display: flex;
     justify-content: center;
@@ -387,6 +393,21 @@ span {
   .subheading2 h3{
     color: purple;
   }
-  
 
+                                    /* Skills Ended */
+                                    /* Projects started */
+.pro{
+    text-align: center;
+    font-size: 5rem;
+}
 
+.projects-container img{
+    width: 20rem;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1%;
+    justify-content: center;
+}
