@@ -1,37 +1,3 @@
-@media(max-width:995px) {
-    nav {
-        position: absolute;
-        display: none;
-        top: 0;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: #161616;
-        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-    }
-
-    nav.active {
-        display: block;
-    }
-
-    nav a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    nav a:hover,
-    nav a.active {
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem;
-    }
-}
-
-
 @keyframes cursor {
     to {
         border-left: 3px solid #b74b4b;
@@ -66,43 +32,179 @@
     }
 }
 
-@media(max-width:1000px) {
-    .home {
-        gap: 4rem;
-    }
-}
+@media only screen and (max-width:600px) {
 
-@media(max-width:995px) {
-    .home {
+    nav {
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #b74b4b;
+        border-bottom: 3px solid #b74b4b;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    .nav a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .intro-content {
+        padding-top: 10%;
+    }
+
+    .intro-content h1 {
+        font-size: 6vw;
+    }
+
+    .intro-content .h3 {
+        font-size: 4.5vw;
+    }
+
+    .social-icons {
+        display: flex;
+    }
+
+    nav a:hover,
+    nav a.active {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem;
+    }
+
+    section {
+        padding: 0 9%;
+    }
+
+    #about {
         flex-direction: column;
-        margin: 5rem 4rem;
     }
 
-    .home .home-content h3 {
+    #about .about-content h3 {
         font-size: 2.5rem;
     }
 
-    .home-content h1 {
+    .about-content h1 {
         font-size: 5rem;
     }
 
-    .home-img img {
-        width: 70vw;
-        margin-top: 4rem;
-    }
-}
-
-@media (max-width:425px) {
-    .about-img img {
-        width: 20%;
+    .intro-img img {
+        display: none;
     }
 
-    .heading h3 {
-        font-size: 20vw;
-    }
-
-    #h2 {
+    #education h2 {
         font-size: 8vw;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-content h2 {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    .about-content h3 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .about-content h4 {
+        font-size: 4.5vw;
+    }
+
+    .education-box img {
+        width: 100%;
+        border: 2px solid #b74b4b;
+    }
+
+    #education {
+        padding-top: 5vh;
+    }
+
+    .education-container .education-box {
+        padding-bottom: 5vh;
+    }
+
+    .education-box p,
+    .education-box h4 {
+        font-size: 4.5vw;
+    }
+
+    #skills {
+        height: 190vh;
+    }
+
+    .skills-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .skills-container2 {
+        display: grid;
+        width: 70vw;
+        /* height: 30vh; */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .skill-box {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .skill-box p {
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        /* letter-spacing:1.2px; */
+        margin-top: 2vh;
+        font-size: 3.5vw;
+    }
+
+    .subheading2 {
+        margin: 0;
+        font-size: 3.5vh;
+    }
+
+    .skills-container {
+        width: 100;
+    }
+
+    #projects h2 {
+        font-size: 10vw;
+    }
+
+    .skill-box2 {
+        height: 30vh;
+        width: 70vw;
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
+
+    .skill-box2 p {
+        text-transform: uppercase;
+        margin-top: 2vh;
+        font-size: 4vw;
+        color: black;
+    }
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:20px;
     }
 
 }

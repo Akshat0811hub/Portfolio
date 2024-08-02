@@ -8,92 +8,118 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="./media.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
   <main id="main">
-    <header>
+    <div class="navbar">
       <a href="#" class="logo">Akshat</a>
+      <div class="navbar-items">
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#education">My Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">My Projects</a>
+          <a href="#contact">Contact</a>
 
-      <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#education">My Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">My Projects</a>
-        <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+    <section id="intro">
 
-      </nav>
-    </header>
-    <section class="home">
-      <div class="home-img">
+      <div class="intro-img">
         <img src="images/portfolio-creative-text-banner-with-black-background-illustration_755074-98.avif" alt="">
       </div>
-      <div class="home-content" data-aos="fade-up">
+
+      <div class="intro-content" data-aos="fade-up">
+
         <h1>Hi It's <span>Akshat</span></h1>
-        <h3 class="typing-text">I'm a <span></span></h3>
+        <h3 class="h3">I'm a <span></span></h3>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates placeat commodi possimus adipisci
           similique illum dolorem nulla nam est, libero quos vero accusantium optio veniam cupiditate cum.
           Tempore, aliquam aut?</p>
+
         <div class="social-icons">
           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
           <a href="#"><i class="fa-brands fa-github"></i></a>
           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <a href="#" class="btn">Hire Me</a>
+
+        <div class="hirebutton">
+          <a href="#" class="btn">Hire Me</a>
+        </div>
+
       </div>
     </section>
     <!-- About -->
 
 
-    <section class="about">
+    <section id="about">
+
       <div class="about-img" data-aos="fade-up" data-aos-duration="3000">
         <img src="images/WhatsApp Image 2024-07-30 at 19.26.21_c3fbfd07.jpg" alt="">
       </div>
 
       <div class="about-content" data-aos="fade-up" data-aos-duration="3000">
-        <h2 class="heading">I'm <span>Akshat Singh</span></h2>
+        <h2 class="h2">I'm <span>Akshat Singh</span></h2>
         <h3>Web Developer</h3>
         <p>I am a Web Developer from Delhi.I am pursuing Bachelor of Computer Application(BCA) from GGSIP
-          UNIVERSITY. I am very passionate about improving my coding skills & developing GUI Applications and
-          Websites. I have made few projects such as Calculator, ToDo list App and my personal portfolio using
+          UNIVERSITY.<br> I am very passionate about improving my coding skills & developing GUI Applications and
+          Websites. I have made few <br> projects such as Calculator, ToDo list App and my personal portfolio using
           HTML,CSS and JS. </p>
-        <h3 class="mail"><span>Email:</span>singhakshat875@gmail.com</h3>
-        <a href="#" class="btn">Read More</a>
+
+        <h4 class="mail"><span>Email: </span>singhakshat875@gmail.com</h4>
+
+        <div class="readmore">
+          <a href="#" class="btn">Read More</a>
+        </div>
       </div>
     </section>
     <!-- My Education -->
 
-    <section class="education">
-      <h2 id="h2">My<span>Education</span></h2>
+    <div id="education">
+
+      <h2>My<span>Education</span></h2>
+
       <div class="education-container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
         <div class="education-box">
           <h3>School</h3>
           <img src="images/Screenshot_20240730-200048.png" alt="">
           <p><span>Rosary Sr.Sec.School</span><br>
-          <h4>Commerce With IP<br><Span>Batch:</Span>2021-2022</p>
+          <h4>Commerce With IP<br><Span>Batch:</Span> 2021-2022</p>
           </h4>
+
+          <div class="edubutton">
           <a href="#" class="btn">Read More</a>
+          </div>
         </div>
-        <div class="education-container" data-aos="fade-up">
-          <div class="education-box">
-            <h3>College</h3>
-            <img src="images/college.png" alt="">
-            <p><span>SGTBIMIT</span><br>
-            <h4>Bachelors of Computer Applications<br><span>Batch:</span>2022-2025</h4>
-            </p>
+
+        <div class="education-box">
+          <h3>College</h3>
+          <img src="images/college.png" alt="">
+          <p><span>SGTBIMIT</span><br>
+          <h4>Bachelors of Computer Applications<br><span>Batch:</span> 2022-2025</h4>
+          </p>
+
+          <div class="edubutton">
             <a href="#" class="btn">Read More</a>
           </div>
-    </section>
+          
+        </div>
+      </div>
+    </div>
 
     <!-- Skills -->
 
-    <section class="skills" id="skills">
-      <h2 class="content"><i class="fa-solid fa-laptop-code"></i>My<span>Skills & Ability</span></h2>
+    <div id="skills">
+      <h2 id="content"><i class="fa-solid fa-laptop-code"> </i> My <span>Skills & Ability</span></h2>
 
       <div class="subheading2" data-aos="zoom-out">
         <span>
@@ -130,53 +156,57 @@
       </div>
 
       <div class="skills-container2" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-        <div class="skill-box2 hover-effect2">
+        <div class="skill-box hover-effect2">
           <img src="images/sql.png" alt="Skill 1" />
           <p>MySQL</p>
         </div>
-        <div class="skill-box2 hover-effect2">
+        <div class="skill-box hover-effect2">
           <img src="images/PHP-logo.svg.png" alt="Skill 3" />
           <p>PHP</p>
         </div>
-        <div class="skill-box2 hover-effect2">
+        <div class="skill-box hover-effect2">
           <img src="images/python.jfif" alt="Skill 3" />
           <p>Python</p>
         </div>
       </div>
 
 
-    </section>
+    </div>
+
     <!-- Skills Ended -->
+
     <!-- Projects -->
 
-    <section class="projects" id="projects">
+    <div id="projects">
+
       <h2 class="pro">My<span>Projects</span></h2>
 
       <div class="projects-container">
-        <div class="skill-box hover-effect">
+        <div class="skill-box2 hover-effect">
           <img src="images/calculator.png" alt="project1" />
           <p>Calculator</p>
         </div>
-        <div class="skill-box hover-effect">
+        <div class="skill-box2 hover-effect">
           <img src="images/rock paper.png" alt="project1" />
           <p>Rock-Paper Game</p>
         </div>
 
-        <div class="skill-box hover-effect">
+        <div class="skill-box2 hover-effect">
           <img src="images/taxi.png" alt="project1" />
           <p>Taxi Site</p>
         </div>
       </div>
-    </section>
-
+      
+    </div>
 
 
   </main>
+
+</body>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-</body>
 <script src="logic.js"></script>
 
 </html>
