@@ -467,8 +467,9 @@ h2 {
 .heading {
     padding-top: 2%;
     text-align: center;
-    padding-right: 20vw;
+    padding-right: 23vw;
     font-size: 3vw;
+    color: black;
 
 }
 
