@@ -422,9 +422,11 @@ h2 {
 /* Skills Ended */
 
 /* Projects started */
-#projects{
+#projects {
     height: 70vh;
+    background-color: #101010;
 }
+
 .pro {
     text-align: center;
     font-size: 5rem;
@@ -469,8 +471,9 @@ h2 {
 .heading {
     padding-top: 2%;
     text-align: center;
-    padding-right: 20vw;
+    padding-right: 23vw;
     font-size: 3vw;
+    color: black;
 
 }
 
@@ -636,7 +639,7 @@ form .button-area {
 }
 
 #footer {
- padding: 1.2%;
+    padding: 1.2%;
     width: 100%;
     background-color: black;
 }
