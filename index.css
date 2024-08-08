@@ -11,6 +11,7 @@
 #main {
     overflow: hidden;
     background-color: #101010;
+    background-image: url(images/wallpaper.mp4);
 }
 
 html {
@@ -155,8 +156,9 @@ span {
     border: 2px solid #b74b4b;
     transition: 0.3s ease;
     cursor: pointer;
-}
+} 
 
+  
 .hirebutton :hover {
     transform: scale3d(1.03);
     background-color: #b74b4b;
@@ -487,7 +489,6 @@ h2 {
 
 .container {
     width: 70%;
-
     background-color: #fff;
     border-radius: 1.5rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
