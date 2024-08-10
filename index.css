@@ -25,7 +25,20 @@ body {
     color: white;
 }
 
-.navbar {
+<<<<<<< HEAD
+.menu-container {
+=======
+/* .navbar {
+    position: fixed;
+    background-color: #101010;
+    width: 100%;
+    z-index: 999;
+    height: 10vh;
+}
+
+.menu {
+
+>>>>>>> 57778d191d3282a24ecd23cd27ea114d7e43a1e4
     position: fixed;
     top: 0;
     left: 45%;
@@ -171,7 +184,8 @@ body {
     font-weight: bolder;
 }
 
-.navbar-items a {
+<<<<<<< HEAD
+.nav-menu a{
     font-size: 1.8rem;
     color: white;
     margin-left: 4rem;
@@ -180,9 +194,14 @@ body {
     border-bottom: 3px solid transparent;
 }
 
-.navbar-items a:hover,
-.navbar-items a.active {
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: #e7e3e3;
+=======
+#nav-links a:hover,
+#nav-links a.active {
     color: #b74b4b;
+>>>>>>> 57778d191d3282a24ecd23cd27ea114d7e43a1e4
     border-bottom: 3px solid #b74b4b;
 }
 
