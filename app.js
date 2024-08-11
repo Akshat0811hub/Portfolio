@@ -1,8 +1,9 @@
 // Navbar menu
+const burger = document.querySelector('.bar');
+const navright = document.querySelector('.menu');
 
-document.getElementById('toggle-menu').addEventListener('click', function() {
-  const navLinks = document.getElementById('nav-links');
-  navLinks.classList.toggle('active');
+burger.addEventListener('click', () => {
+  navright.classList.toggle('active');
 });
 
 
